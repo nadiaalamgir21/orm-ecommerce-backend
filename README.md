@@ -3,11 +3,11 @@
   
 ## Description
 
-A mysql database and application backend for an e-commerce site. Built using MySQL2, Express, Sequelize and dotenv.
+It is a Mysql database and Node.js backend application for an e-commerce site tested in Insomnia api test software and built using MySQL2, Express, Sequelize and dotenv.
   
 
 ## Walkthrough video 
-link to video => 
+link to video => https://youtu.be/TKEv5vLVfqw
 
 ## Installation
     
@@ -60,15 +60,4 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
   
-## Table of Contents
-- [Description](#description)
-- [User Story](#user-story)
-- [Acceptance Criteria](#acceptance-criteria)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [Questions](#questions)
-
 
