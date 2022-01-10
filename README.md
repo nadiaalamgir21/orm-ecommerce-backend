@@ -6,7 +6,7 @@
 It is a Mysql database and Node.js backend application for an e-commerce site tested in Insomnia api testing software and built using MySQL2, Express, Sequelize and dotenv.
 
 
-## Walkthrough video 
+## Walkthrough Video 
 link to video => https://youtu.be/TKEv5vLVfqw
 
 
