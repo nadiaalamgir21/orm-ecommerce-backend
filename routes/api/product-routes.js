@@ -1,12 +1,8 @@
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
-
-
-// below function get all products
+// below function gets all products
 router.get('/', (req, res) => {
-  // find all products
-  // be sure to include its associated Category and Tag data
   Product.findAll({
     attributes: ['id', 'product_name', 'price', 'stock'],
     include: [
@@ -27,9 +23,8 @@ router.get('/', (req, res) => {
     });
 });
 
-// get one product
+// below function gets one product by its `id`
 router.get('/:id', (req, res) => {
-  // find a single product by its `id`
   Product.findOne({
     where: {
       id: req.params.id
@@ -59,7 +54,7 @@ router.get('/:id', (req, res) => {
     });
 });
 
-// create new product
+// below function creates new product
 router.post('/', (req, res) => {
  Product.create({
     product_name: req.body.product_name,
@@ -89,9 +84,9 @@ router.post('/', (req, res) => {
     });
 });
 
-// update product
+// below function updates one product
 router.put('/:id', (req, res) => {
-  // update product data
+
   Product.update(req.body, {
     where: {
       id: req.params.id,
@@ -131,8 +126,9 @@ router.put('/:id', (req, res) => {
     });
 });
 
+// below function deletes one product by its `id` value
 router.delete('/:id', (req, res) => {
-  // delete one product by its `id` value
+
   Product.destroy({
     where: {
       id: req.params.id
