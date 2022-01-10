@@ -13,7 +13,7 @@ link to video => https://youtu.be/TKEv5vLVfqw
 ## Built With
 
 * Node.js
-* dotenv"
+* dotenv
 * express
 * mysql2
 * sequelize
