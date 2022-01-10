@@ -11,13 +11,11 @@ link to video => https://youtu.be/TKEv5vLVfqw
 
 ## Installation
     
-`npm init`
+`git clone https://github.com/nadiaalamgir21/orm-ecommerce-backend.git`
 
-`npm install mysql2`
+Switch to project folder then
 
-`npm install sequelize`
-
-`npm install dotenv`
+`npm install`
   
 ## Usage
 
